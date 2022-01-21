@@ -1,0 +1,12 @@
+                    GIT
+
+- it is a software
+- it is installed locally on the system
+- it is a command like tool
+- it provides functionalities like version control system source code management      
+       GIThub
+
+- it is a service
+- it is hosted on web
+- it is a space to upload a copy of the git repository
+- it provides functionalities of git like VCS, source code management as well as adding few of its own features
