@@ -2,7 +2,7 @@
 
 - it is a software
 - it is installed locally on the system
-- it is a command like tool
+- git is tool
 - it provides functionalities like version control system source code management      
        GIThub
 
