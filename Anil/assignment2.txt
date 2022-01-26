@@ -1,0 +1,32 @@
+what is linux operating system?
+- Linux is a Unix-like, open source and community-developed operating system (OS) for computers, servers, mainframes, mobile devices and embedded devices. It is supported on almost every major computer platform, including x86, ARM and SPARC, making it one of the most widely supported operating systems.
+
+some basic commands of linux:
+
+-uname    :- to check the operating system.
+-uname -r :- to check the version.                                                                   
+-uname -a :- get all information about linux.
+-whoami   :- to check username.
+touch     :- to create a empty file.
+-ls       :- to list the all files and directory.
+-man      :- man command is used to display the user manual of any commands.
+-cd       :- this command is used for go back.
+-clear    :- to clear the screen.
+-cat>>    :- to write in file.
+-cat      :- to display written text.
+-cat >>   :- to append the text file.m
+-mkdir    :- to create directory.
+-rmdir    :- to delete empty directory.
+-rm -r    :- to delete non empty directory.
+-cal      :- to show the calender.
+-cal -y   :- to show the recent year calender.
+-cal 08 2012 :- to show the calender for the specific month.
+-date     :- to check the recent time.
+-date -u  :- to check date in universal.
+-date --date ="yesterday" :- to check the date for the specific date.
+-banner   :- to show the text in banner form.
+-du       :- to check the file used in the system.
+-du -b    :- to check byte allocate for specific file.
+-sudo     :- to perform for the root command in the system.
+-su       :- it is used to switch the user to another user.
+-echo     :- for displaying lines of text or string which are passed as argumrnts on the command line.
