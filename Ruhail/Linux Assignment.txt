@@ -9,6 +9,7 @@
 ○	Git is installed locally on the system
 ○	Git is maintained by Linux.
 ○	Git was released in 2005.
+
 ●	GitHub 
 ○	GitHub is a service.
 ○	GitHub is graphical user interface 
@@ -19,24 +20,31 @@
 3. Why we use Linux?
 ●	There are many reason to use Linux :-
 ○	Open source
-■	Linux is an open source operating system, any user use this operating system without licenses
+■	Linux is an open source operating system, any user use this operating system without licenses.
+
 ○	Security 
 ■	This operating system is provided good security feature, like password protection, control access etc. 
+
 ○	Portable 
 ■	Linux operating system is portable because it is to work with multiple hardware at  the same time.
+
 ○	Multi-user 
 ■	Linux is a multi-user operating system because at the same time we can access memory, ram, application.
+
 4. What are features and Advantages of Linux?
 ●	Features of Linux:-
 ○	Open source
 ○	Multi-user
 ○	Security 
 ○	Portability
+
 ●	Advantages of Linux :-
 ○	Lightweight :-
 ■	Linux is a lightweight operating system. The requirements for running this operating system much less than others.
+
 ○	Free :-
 ■	The biggest advantage of the Linux system is that it is free to use. We can easily download it. And there is no need to buy any license.
+
 ○	Performance :-
 ■	It is providing high performance over different operating system.
 
