@@ -1,0 +1,434 @@
+1. What is git?
+●	Git is a free and open source distributed code management and version control system.
+●	Git allow user to track code change and manage their project using simple commands.
+
+2. Difference between git and GitHub?
+●	Git
+○	Git is a software
+○	Git is a command-line tool
+○	Git is installed locally on the system
+○	Git is maintained by Linux.
+○	Git was released in 2005.
+●	GitHub 
+○	GitHub is a service.
+○	GitHub is graphical user interface 
+○	GitHub is hosted on the web
+○	GitHub is maintained by Microsoft.
+○	GitHub was released in 2008.
+
+3. Why we use Linux?
+●	There are many reason to use Linux :-
+○	Open source
+■	Linux is an open source operating system, any user use this operating system without licenses
+○	Security 
+■	This operating system is provided good security feature, like password protection, control access etc. 
+○	Portable 
+■	Linux operating system is portable because it is to work with multiple hardware at  the same time.
+○	Multi-user 
+■	Linux is a multi-user operating system because at the same time we can access memory, ram, application.
+4. What are features and Advantages of Linux?
+●	Features of Linux:-
+○	Open source
+○	Multi-user
+○	Security 
+○	Portability
+●	Advantages of Linux :-
+○	Lightweight :-
+■	Linux is a lightweight operating system. The requirements for running this operating system much less than others.
+○	Free :-
+■	The biggest advantage of the Linux system is that it is free to use. We can easily download it. And there is no need to buy any license.
+○	Performance :-
+■	It is providing high performance over different operating system.
+
+○	Privacy :-
+■	Linux always takes care of user privacy as it never takes much private information from the user.
+
+
+5. Here are some basic commands of Linux :-
+
+Linux Commands :-
+
+1.	PWD Command :-
+a.	PWD stands for present working Directory, this command is to show  which directory we are working and which is our current directory. 
+Ex :-
+		ruhai@ruhail-Vostro-15-3568:/home$ pwd
+/home
+
+2.	Cd Command :-
+a.	Cd stands for change directory, with the of this command we can switch one directory to another directory, and we can back present directory.
+
+		ruhai@ruhail-Vostro-15-3568:/$ cd home/
+ruhai@ruhail-Vostro-15-3568:/home$ cd ruhail
+ruhai@ruhail-Vostro-15-3568:/home/ruhail$ cd ../../
+
+3.	Ls command :-
+a.	Ls stands for list, with the help o	f this command we can list all files and directories.
+	ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+README.md  requirment.txt  test
+
+
+4.	Cat command :-
+a.	Cat stands for concatenate, this command is used to create a new empty file, and  we can see all the content which is present in the file.
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat > demo.txt
+this is demo file 
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat demo.txt
+this is demo file 
+
+5.	Clear command :-
+a.	Clear all the command which are written in terminal.
+
+Before using clear command :-
+		ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+demo.txt  Myproject
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cd Myproject/
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ 
+
+
+
+After using clear command :-
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ 
+
+
+6.	Who command :-
+a.	With the help of this command, display the currently logged user in to your Linux operating system.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ who
+ruhail   :0           2022-01-27 18:12 (:0)
+ruhai    :1           2022-01-27 18:10 (:1)
+	
+	
+7.	Cal command :-
+a.	We can view a calendar with help of this command, and we can also view current month, date, year, using this command.
+
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ cal
+    January 2022      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30 31                 
+
+●	Using cal -y command :-
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ cal -y
+                            2022
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5         1  2  3  4  5  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   6  7  8  9 10 11 12  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  13 14 15 16 17 18 19  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  20 21 22 23 24 25 26  
+23 24 25 26 27 28 29  27 28                 27 28 29 30 31        
+30 31                                                             
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2   1  2  3  4  5  6  7            1  2  3  4  
+ 3  4  5  6  7  8  9   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  29 30 31              26 27 28 29 30        
+
+
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6               1  2  3  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+24 25 26 27 28 29 30  28 29 30 31           25 26 27 28 29 30     
+31                                                                
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5               1  2  3  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  27 28 29 30           25 26 27 28 29 30 31  
+
+7.1
+a.	Date command :-
+i.	This command is used to show current date and time.
+
+
+	ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ date
+Thursday 27 January 2022 10:11:55 PM IST
+
+8.	Touch	command :-
+a.	Create an empty file using this command.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ touch imp.txt
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+'assignment 1'   imp.txt     requirment.txt   test.md
+ ChatBot         README.md   test
+
+
+9.	Mkdir Command :-
+a.	We can create a new directory using this command.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ mkdir new
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+'assignment 1'   imp.txt   README.md        test
+ ChatBot         new       requirment.txt   test.md
+
+
+10.	Rmdir command :-
+a.	Delete any empty directory using this command.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ rmdir new
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+'assignment 1'   imp.txt     requirment.txt   test.md
+ ChatBot         README.md   test
+
+10.1 rm -r directory name :-
+a.	If we want to delete non-empty folder, then we will have to use this command.
+	
+	ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+'assignment 1'   imp.txt     requirment.txt   test.md
+ ChatBot         README.md   test
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ rm -r test.md
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
+'assignment 1'   ChatBot   imp.txt   README.md   requirment.txt   test
+
+
+
+11.	Du command :-
+a.	Du stands for disk usage, with the help of this command we can show the size of all  directory and the size of particular directory.
+
+
+Can see size of multi files or directories :-
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ du
+8	./test
+1136	./assignment 1
+12	./.git/logs/refs/remotes/origin
+16	./.git/logs/refs/remotes
+12	./.git/logs/refs/heads
+32	./.git/logs/refs
+40	./.git/logs
+4	./.git/branches
+12	./.git/refs/remotes/origin
+16	./.git/refs/remotes
+4	./.git/refs/tags
+12	./.git/refs/heads
+36	./.git/refs
+8	./.git/info
+56	./.git/hooks
+1032	./.git/objects/c9
+160	./.git/objects/a8
+8	./.git/objects/c1
+8	./.git/objects/5a
+
+Can see particular file or directory size :-
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ du -b ChatBot
+174612	ChatBot
+
+12.	MV command :-
+a.	The use of this command is to change the name of directory and file, and we can move the file and directory to one location to another location.
+
+		Here we can see in the below image, our folder name is imp after using MV 
+command our folder name has been change into important, basically MV 
+command  is also used to rename our folder and file.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+demo.txt  Myproject  test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ mv demo.txt test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+Myproject  test
+
+	
+13.	Vi command :-
+a.	This command is used to edit any file content.
+
+ruhail@ruhail-Vostro-15-3568:~$ vi f.txt
+ruhail@ruhail-Vostro-15-3568:~$ cat f.txt
+this is the edit file
+
+14.	Uname command :-
+15.	This command is used to find the information about the system. Like, which operating system you are using and the name of machine, kernel etc.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ uname
+Linux
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ uname -r
+5.13.0-27-generic
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ uname -a
+Linux ruhail-Vostro-15-3568 5.13.0-27-generic #29~20.04.1-Ubuntu SMP Fri Jan 14 00:32:30 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+
+16.	Sudo command :-
+a.	 Sudo stands for “SuperUser Do”, this command is help to install packages, and we can perform other task using sudo command.
+	
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ sudo apt update
+[sudo] password for ruhail: 
+Hit:1 http://in.archive.ubuntu.com/ubuntu focal InRelease                      
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease                  
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:4 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:6 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [40.6 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [66.3 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+Fetched 223 kB in 47s (4,761 B/s)                                              
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+17.	Find command :-
+a.	This command is used to find all directories and files.
+i.	Ex :- find -name test.txt
+
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ find -name test
+./test
+./Myproject/test
+./Myproject/.git/logs/refs/heads/test
+./Myproject/.git/refs/heads/test
+
+18.	CP command :-
+a.	CP stands for copy, if we want to copy any file or  directory into another dictionary, so we can use this command.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat >> f.txt
+this is test file
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+f.txt  Myproject  test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cp f.txt test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+f.txt  Myproject  test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls test
+demo.txt  f.txt
+
+
+19.	Banner command :-
+
+a.	Banner command is used to write any name in star format.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ banner Ruhail Khan
+######
+#     #  #    #  #    #    ##       #    #
+#     #  #    #  #    #   #  #      #    #
+######   #    #  ######  #    #     #    #
+#   #    #    #  #    #  ######     #    #
+#    #   #    #  #    #  #    #     #    #
+#     #   ####   #    #  #    #     #    ######
+
+#    #
+#   #    #    #    ##    #    #
+#  #     #    #   #  #   ##   #
+###      ######  #    #  # #  #
+#  #     #    #  ######  #  # #
+#   #    #    #  #    #  #   ##
+#    #   #    #  #    #  #    #
+
+
+
+20.	Sudo apt clean command :-
+a.	This command is help to remove junk file and temp file.
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ sudo apt clean
+ruhail@ruhail-Vostro-15-3568:~/Desktop$
+
+21.	Su command :-
+a.	Suppose you are present in student user, and you want to switch to root user, then you can use this command, 
+b.	in simple word, this command is used to switch one user to another user.
+
+Example – [ student@localhost ~]# su – root  then enter
+
+
+
+
+22.	Echo command :-
+a.	With the help of this command, we can write anything in the file using this command, and we can be displaying data via passed argument string/text. 
+
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ echo "this is test file " >> f.txt
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+f.txt  Myproject  test
+ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat f.txt
+this is test file
+this is test file 
+
+ ruhail@ruhail-Vostro-15-3568:~/Desktop$ echo "the world is beautiful"
+the world is beautiful
+
+
+23.	History command :-
+a.	With the help of this command, we can see all previous command using history command.
+
+ruhail@ruhail-Vostro-15-3568:~$ history
+    1  sudo apt install git
+    2  git --version
+    3  cd 
+    4  git clone https://github.com/rajashri570/MI-15-EMBEDD.git
+    5  ls
+    6  git config --list
+    7  git config --global user.email "ruhail.tca1709079@tmu.ac.in"
+    8  git config --global user.name "ruhailkhan2016"
+
+
+24.	Cp –help command :-
+a.	This command is used to see all command which related to CP command.
+
+ruhail@ruhail-Vostro-15-3568:~$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+
+
+
+	
