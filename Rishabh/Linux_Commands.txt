@@ -1,0 +1,484 @@
+-------------------------------------------------------------------------------------------------------
+				LINUX COMMANDS
+-------------------------------------------------------------------------------------------------------
+
+1. pwd Command -------->  The pwd command is used to display the location of the current working directory.
+
+2. mkdir Command ---------->  The mkdir command is used to create a new directory under any directory.
+
+3. rmdir Command
+
+3. rmdir Command
+
+The rmdir command is used to delete a directory.
+
+4. ls Command
+
+The ls command is used to display a list of content of a directory.
+
+
+5. cd Command
+
+The cd command is used to change the current directory.
+
+
+6. touch Command
+
+The touch command is used to create empty files. We can create multiple empty files by executing it once.
+
+
+7. cat Command
+
+The cat command is a multi-purpose utility in the Linux system. It can be used to create a file, display content of the file, copy the content of one file to another file, and more.
+
+
+Press "CTRL+ D" keys to save the file. To display the content of the file, execute it as follows:
+
+
+8. rm Command
+
+The rm command is used to remove a file.
+
+
+9. cp Command
+
+The cp command is used to copy a file or directory.
+
+
+10. mv Command
+
+The mv command is used to move a file or a directory form one location to another location.
+
+
+11. rename Command
+
+The rename command is used to rename files. It is useful for renaming a large group of files.
+
+
+----------------------------------------------------------FILE CONTENT COMMANDS--------------------------------------------------
+
+12. head Command
+
+The head command is used to display the content of a file. It displays the first 10 lines of a file.
+
+Syntax:
+
+head <file name>  
+
+
+13. tail Command
+
+The tail command is similar to the head command. The difference between both commands is that it displays the last ten lines of the file content. It is useful for reading the error message.
+
+Syntax:
+
+tail <file name>  
+
+
+14. tac Command
+
+The tac command is the reverse of cat command, as its name specified. It displays the file content in reverse order (from the last line).
+
+Syntax:
+
+tac <file name>  
+
+
+
+15. more command
+
+The more command is quite similar to the cat command, as it is used to display the file content in the same way that the cat command does. The only difference between both commands is that, in case of larger files, the more command displays screenful output at a time.
+
+In more command, the following keys are used to scroll the page:
+
+ENTER key: To scroll down page by line.
+
+Space bar: To move to the next page.
+
+b key: To move to the previous page.
+
+/ key: To search the string.
+
+Syntax:
+
+more <file name>
+
+
+
+16. less Command
+
+The less command is similar to the more command. It also includes some extra features such as 'adjustment in width and height of the terminal.' Comparatively, the more command cuts the output in the width of the terminal.
+
+Syntax:
+
+less <file name>  
+
+
+
+------------------------------------------------------------LINUX USER COMMANDS--------------------------------------------
+
+17. su Command
+
+The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
+
+Syntax:
+
+su <user name>  17. su Command
+
+The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
+
+Syntax:
+
+su <user name>  
+
+
+
+18. id Command
+
+The id command is used to display the user ID (UID) and group ID (GID).
+
+Syntax:
+
+id  
+
+
+
+19. useradd Command
+
+The useradd command is used to add or remove a user on a Linux server.
+
+Syntax:
+
+useradd  username  
+
+
+
+20. passwd Command
+
+The passwd command is used to create and change the password for a user.
+
+Syntax:
+
+passwd <username>  
+
+
+
+20. passwd Command
+
+The passwd command is used to create and change the password for a user.
+
+Syntax:
+
+passwd <username>  
+Output:
+
+Linux Commands with Examples
+21. groupadd Command
+
+The groupadd command is used to create a user group.
+
+Syntax:
+
+groupadd <group name>  
+Output:
+
+Linux Commands with Examples
+Linux Filter Commands
+22. cat Command
+
+The cat command is also used as a filter. To filter a file, it is used inside pipes.
+
+Syntax:
+
+cat <fileName> | cat or tac | cat or tac |. . .   
+Output:
+
+Linux Commands with Examples
+23. cut Command
+
+The cut command is used to select a specific column of a file. The '-d' option is used as a delimiter, and it can be a space (' '), a slash (/), a hyphen (-), or anything else. And, the '-f' option is used to specify a column number.
+
+Syntax:
+
+cut -d(delimiter) -f(columnNumber) <fileName>  
+Output:
+
+Linux Commands with Examples
+24. grep Command
+
+The grep is the most powerful and used filter in a Linux system. The 'grep' stands for "global regular expression print." It is useful for searching the content from a file. Generally, it is used with the pipe.
+
+Syntax:
+
+command | grep <searchWord>  
+Output:
+
+Linux Commands with Examples
+25. comm Command
+
+The 'comm' command is used to compare two files or streams. By default, it displays three columns, first displays non-matching items of the first file, second indicates the non-matching item of the second file, and the third column displays the matching items of both files.
+
+Syntax:
+
+comm <file1> <file2>  
+Output:
+
+Linux Commands with Examples
+26. sed command
+
+The sed command is also known as stream editor. It is used to edit files using a regular expression. It does not permanently edit files; instead, the edited content remains only on display. It does not affect the actual file.
+
+Syntax:
+
+command | sed 's/<oldWord>/<newWord>/'  
+Output:
+
+Linux Commands with Examples
+27. tee command
+
+The tee command is quite similar to the cat command. The only difference between both filters is that it puts standard input on standard output and also write them into a file.
+
+Syntax:
+
+cat <fileName> | tee <newFile> |  cat or tac |.....  
+Output:
+
+Linux Commands with Examples
+28. tr Command
+
+The tr command is used to translate the file content like from lower case to upper case.
+
+Syntax:
+
+command | tr <'old'> <'new'>  
+Output:
+
+Linux Commands with Examples
+29. uniq Command
+
+The uniq command is used to form a sorted list in which every word will occur only once.
+
+Syntax:
+
+command <fileName> | uniq  
+Output:
+
+Linux Commands with Examples
+30. wc Command
+
+The wc command is used to count the lines, words, and characters in a file.
+
+Syntax:
+
+wc <file name>  
+Output:
+
+Linux Commands with Examples
+31. od Command
+
+The od command is used to display the content of a file in different s, such as hexadecimal, octal, and ASCII characters.
+
+Syntax:
+
+od -b <fileName>      // Octal format  
+od -t x1 <fileName>   // Hexa decimal format  
+od -c <fileName>     // ASCII character format  
+Output:
+
+Linux Commands with Examples
+32. sort Command
+
+The sort command is used to sort files in alphabetical order.
+
+Syntax:
+
+sort <file name>  
+Output:
+
+Linux Commands with Examples
+33. gzip Command
+
+The gzip command is used to truncate the file size. It is a compressing tool. It replaces the original file by the compressed file having '.gz' extension.
+
+Syntax:
+
+gzip <file1> <file2> <file3>...  
+Output:
+
+Linux Commands with Examples
+34. gunzip Command
+
+The gunzip command is used to decompress a file. It is a reverse operation of gzip command.
+
+Syntax:
+
+gunzip <file1> <file2> <file3>. .  
+Output:
+
+Linux Commands with Examples
+Linux Utility Commands
+35. find Command
+
+The find command is used to find a particular file within a directory. It also supports various options to find a file such as byname, by type, by date, and more.
+
+The following symbols are used after the find command:
+
+(.) : For current directory name
+
+(/) : For root
+
+Syntax:
+
+find . -name "*.pdf"  
+Output:
+
+Linux Commands with Examples
+36. locate Command
+
+The locate command is used to search a file by file name. It is quite similar to find command; the difference is that it is a background process. It searches the file in the database, whereas the find command searches in the file system. It is faster than the find command. To find the file with the locates command, keep your database updated.
+
+Syntax:
+
+locate <file name>  
+Output:
+
+Linux Commands with Examples
+37. date Command
+
+The date command is used to display date, time, time zone, and more.
+
+Syntax:
+
+date  
+Output:
+
+Linux Commands with Examples
+38. cal Command
+
+The cal command is used to display the current month's calendar with the current date highlighted.
+
+Syntax:
+
+cal<  
+Output:
+
+Linux Commands with Examples
+39. sleep Command
+
+The sleep command is used to hold the terminal by the specified amount of time. By default, it takes time in seconds.
+
+Syntax:
+
+sleep <time>  
+Output:
+
+Linux Commands with Examples
+40. time Command
+
+The time command is used to display the time to execute a command.
+
+Syntax:
+
+time  
+Output:
+
+Linux Commands with Examples
+41. zcat Command
+
+The zcat command is used to display the compressed files.
+
+Syntax:
+
+zcat <file name>  
+Output:
+
+Linux Commands with Examples
+42. df Command
+
+The df command is used to display the disk space used in the file system. It displays the output as in the number of used blocks, available blocks, and the mounted directory.
+
+Syntax:
+
+df  
+Output:
+
+Linux Commands with Examples
+43. mount Command
+
+The mount command is used to connect an external device file system to the system's file system.
+
+Syntax:
+
+mount -t type <device> <directory>  
+Output:
+
+Linux Commands with Examples
+44. exit Command
+
+Linux exit command is used to exit from the current shell. It takes a parameter as a number and exits the shell with a return of status number.
+
+Syntax:
+
+exit  
+Output:
+
+Linux Commands with Examples
+After pressing the ENTER key, it will exit the terminal.
+
+45. clear Command
+
+Linux clear command is used to clear the terminal screen.
+
+Syntax:
+
+clear  
+Output:
+
+Linux Commands with Examples
+After pressing the ENTER key, it will clear the terminal screen.
+
+Linux Networking Commands
+46. ip Command
+
+Linux ip command is an updated version of the ipconfig command. It is used to assign an IP address, initialize an interface, disable an interface.
+
+Syntax:
+
+ip a or ip addr  
+Output:
+
+Linux Commands with Examples
+47. ssh Command
+
+Linux ssh command is used to create a remote connection through the ssh protocol.
+
+Syntax:
+
+ssh user_name@host(IP/Domain_name)</p>  
+48. mail Command
+
+The mail command is used to send emails from the command line.
+
+Syntax:
+
+mail -s "Subject" <recipient address>  
+Output:
+
+Linux Commands with Examples
+49. ping Command
+
+The ping command is used to check the connectivity between two nodes, that is whether the server is connected. It is a short form of "Packet Internet Groper."
+
+Syntax:
+
+ping <destination>  
+Output:
+
+Linux Commands with Examples
+50. host Command
+
+The host command is used to display the IP address for a given domain name and vice versa. It performs the DNS lookups for the DNS Query.
+
+Syntax:
+
+host <domain name> or <ip address> 

@@ -1,0 +1,510 @@
+-----------------------------------------------------------LINUX------------------------------------------------------------
+Diff:-   Linux is a Unix-like, open source and community-developed operating system (OS) for computers, servers, mainframes, mobile devices and embedded devices. It is supported on almost every major computer platform, including x86, ARM and SPARC, making it one of the most widely supported operating systems.
+
+Advantage of LINUX:-	
+
+1. pen Source
+As it is open-source, its source code is easily available. Anyone having programming knowledge can customize the operating system. One can contribute, modify, distribute, and enhance the code for any purpose.
+
+2. Security
+The Linux security feature is the main reason that it is the most favorable option for developers. It is not completely safe, but it is less vulnerable than others. Each application needs to authorize by the admin user. The virus is not executed until the administrator provides the access password. Linux systems do not require any antivirus program.
+
+3. Free
+Certainly, the biggest advantage of the Linux system is that it is free to use. We can easily download it, and there is no need to buy the license for it. It is distributed under GNU GPL (General Public License). Comparatively, we have to pay a huge amount for the license of the other operating systems.
+
+4. Lightweight
+Linux is lightweight. The requirements for running Linux are much less than other operating systems. In Linux, the memory footprint and disk space are also lower. Generally, most of the Linux distributions required as little as 128MB of RAM around the same amount for disk space.
+
+5. Stability
+Linux is more stable than other operating systems. Linux does not require to reboot the system to maintain performance levels. It rarely hangs up or slow down. It has big up-times.
+
+6. Performance
+Linux system provides high performance over different networks. It is capable of handling a large number of users simultaneously.
+
+7. Flexibility
+Linux operating system is very flexible. It can be used for desktop applications, embedded systems, and server applications too. It also provides various restriction options for specific computers. We can install only necessary components for a system.
+
+8. Software Updates
+In Linux, the software updates are in user control. We can select the required updates. There a large number of system updates are available. These updates are much faster than other operating systems. So, the system updates can be installed easily without facing any issue.
+
+9. Distributions/ Distros
+There are many Linux distributions available in the market. It provides various options and flavors of Linux to the users. We can choose any distros according to our needs. Some popular distros are Ubuntu, Fedora, Debian, Linux Mint, Arch Linux, and many more.
+
+For the beginners, Ubuntu and Linux Mint would be useful and, Debian and Fedora would be good choices for proficient programmers.
+
+10. Live CD/USB
+Almost all Linux distributions have a Live CD/USB option. It allows us to try or run the Linux operating system without installing it.
+
+11. Graphical User Interface
+Linux is a command-line based OS but, it provides an interactive user interface like Windows.
+
+12. Suitable for programmers
+It supports almost all of the most used programming languages such as C/C++, Java, Python, Ruby, and more. Further, it offers a vast range of useful applications for development.
+
+The programmers prefer the Linux terminal over the Windows command line. The package manager on Linux system helps programmers to understand how things are done. Bash scripting is also a functional feature for the programmers. It also provides support for SSH, which helps in managing the servers quickly.
+
+13. Community Support
+Linux provides large community support. We can find support from various sources. There are many forums available on the web to assist users. Further, developers from the various opensource communities are ready to help us.
+
+
+14. Privacy
+Linux always takes care of user privacy as it never takes much private data from the user. Comparatively, other operating systems ask for the user's private data.
+
+15. Networking
+Linux facilitates with powerful support for networking. The client-server systems can be easily set to a Linux system. It provides various command-line tools such as ssh, ip, mail, telnet, and more for connectivity with the other systems and servers. Tasks such as network backup are much faster than others.
+
+16. Compatibility
+Linux is compatible with a large number of file formats as it supports almost all file formats.
+
+17. Installation
+Linux installation process takes less time than other operating systems such as Windows. Further, its installation process is much easy as it requires less user input. It does not require much more system configuration even it can be easily installed on old machines having less configuration.
+
+18. Multiple Desktop Support
+Linux system provides multiple desktop environment support for its enhanced use. The desktop environment option can be selected during installation. We can select any desktop environment such as GNOME (GNU Network Object Model Environment) or KDE (K Desktop Environment) as both have their specific environment.
+
+19. Multitasking
+It is a multitasking operating system as it can run multiple tasks simultaneously without affecting the system speed.
+
+20. Heavily Documented for beginners
+There are many command-line options that provide documentation on commands, libraries, standards such as manual pages and info pages. Also, there are plenty of documents available on the internet in different formats, such as Linux tutorials, Linux documentation project, Serverfault, and more. To help the beginners, several communities are available such as Ask Ubuntu, Reddit, and StackOverflow.
+
+For more head to head comparison of Linux system, visit Linux vs. Windows.
+
+
+
+Disadvantage of LINUX:-
+
+No standard edition
+Hard Learning Curve
+Limited Market Share
+Lack of Proprietary Software
+Difficult to Troubleshoot
+Poor Support for Games
+Unsupported Hardware
+Lack of Technical Support
+No Hibernation
+No Unified Installer / Package Manager
+Very Secure
+Stable
+Free and Open Source
+Easy to Use
+Absolute Freedom Over Your System
+High Performance
+Proper Use of System Resources
+Privacy Friendly
+Easily Install Software
+Better Software Updates
+
+
+VERSIONS OF LINUX:-
+
+Android
+Arch Linux
+Centos
+Debian
+Elementary OS
+Fedora
+Gentoo Linux
+Kali Linux
+Linux Mint
+Manjaro Linux
+MX Linux
+Puppy Linux
+Slackware
+Solus
+Ubuntu and all its versions (Gnome, Kubuntu, Ubuntu mate, Xubuntu, and Lubuntu—just to name a few)
+Zorin OS
+
+
+
+FEATURES OF LINUX:-
+
+Portable − Portability means software can works on different types of hardware in same way. Linux kernel and application programs supports their installation on any kind of hardware platform.
+
+Open Source − Linux source code is freely available and it is community based development project. Multiple teams work in collaboration to enhance the capability of Linux operating system and it is continuously evolving.
+
+Multi-User − Linux is a multiuser system means multiple users can access system resources like memory/ ram/ application programs at same time.
+
+Multiprogramming − Linux is a multiprogramming system means multiple applications can run at same time.
+
+Hierarchical File System − Linux provides a standard file structure in which system files/ user files are arranged.
+
+Shell − Linux provides a special interpreter program which can be used to execute commands of the operating system. It can be used to do various types of operations, call application programs. etc.
+
+Security − Linux provides user security using authentication features like password protection/ controlled access to specific files/ encryption of data.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------LINUX COMMANDS----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+
+
+1 – SYSTEM INFORMATION
+# Display Linux system information
+uname -a
+
+# Display kernel release information
+uname -r
+
+# Show which version of Red Hat installed
+cat /etc/redhat-release
+
+# Show how long the system has been running + load
+uptime
+
+# Show system host name
+hostname
+
+# Display all local IP addresses of the host.
+hostname -I
+
+# Show system reboot history
+last reboot
+
+# Show the current date and time
+date
+
+# Show this month's calendar
+cal
+
+# Display who is online
+w
+
+# Who you are logged in as
+whoami
+2 – HARDWARE INFORMATION
+# Display messages in kernel ring buffer
+dmesg
+
+# Display CPU information
+cat /proc/cpuinfo
+
+# Display memory information
+cat /proc/meminfo
+
+# Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+free -h
+
+# Display PCI devices
+lspci -tv
+
+# Display USB devices
+lsusb -tv
+
+# Display DMI/SMBIOS (hardware info) from the BIOS
+dmidecode
+
+# Show info about disk sda
+hdparm -i /dev/sda
+
+# Perform a read speed test on disk sda
+hdparm -tT /dev/sda
+
+# Test for unreadable blocks on disk sda
+badblocks -s /dev/sda
+3 – PERFORMANCE MONITORING AND STATISTICS
+# Display and manage the top processes
+top
+
+# Interactive process viewer (top alternative)
+htop
+
+# Display processor related statistics
+mpstat 1
+
+# Display virtual memory statistics
+vmstat 1
+
+# Display I/O statistics
+iostat 1
+
+# Display the last 100 syslog messages  (Use /var/log/syslog for Debian based systems.)
+tail -100 /var/log/messages
+
+# Capture and display all packets on interface eth0
+tcpdump -i eth0
+
+# Monitor all traffic on port 80 ( HTTP )
+tcpdump -i eth0 'port 80'
+
+# List all open files on the system
+lsof
+
+# List files opened by user
+lsof -u user
+
+# Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+free -h
+
+# Execute "df -h", showing periodic updates
+watch df -h
+4 – USER INFORMATION AND MANAGEMENT
+# Display the user and group ids of your current user.
+id
+
+# Display the last users who have logged onto the system.
+last
+
+# Show who is logged into the system.
+who
+
+# Show who is logged in and what they are doing.
+w
+
+# Create a group named "test".
+groupadd test
+
+# Create an account named john, with a comment of "John Smith" and create the user's home directory.
+useradd -c "John Smith" -m john
+
+# Delete the john account.
+userdel john
+
+# Add the john account to the sales group
+usermod -aG sales john
+5 – FILE AND DIRECTORY COMMANDS
+# List all files in a long listing (detailed) format
+ls -al
+
+# Display the present working directory
+pwd
+
+# Create a directory
+mkdir directory
+
+# Remove (delete) file
+rm file
+
+# Remove the directory and its contents recursively
+rm -r directory
+
+# Force removal of file without prompting for confirmation
+rm -f file
+
+# Forcefully remove directory recursively
+rm -rf directory
+
+# Copy file1 to file2
+cp file1 file2
+
+# Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
+cp -r source_directory destination
+
+# Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
+mv file1 file2
+
+# Create symbolic link to linkname
+ln -s /path/to/file linkname
+
+# Create an empty file or update the access and modification times of file.
+touch file
+
+# View the contents of file
+cat file
+
+# Browse through a text file
+less file
+
+# Display the first 10 lines of file
+head file
+
+# Display the last 10 lines of file
+tail file
+
+# Display the last 10 lines of file and "follow" the file as it grows.
+tail -f file
+6 – PROCESS MANAGEMENT
+# Display your currently running processes
+ps
+
+# Display all the currently running processes on the system.
+ps -ef
+
+# Display process information for processname
+ps -ef | grep processname
+
+# Display and manage the top processes
+top
+
+# Interactive process viewer (top alternative)
+htop
+
+# Kill process with process ID of pid
+kill pid
+
+# Kill all processes named processname
+killall processname
+
+# Start program in the background
+program &
+
+# Display stopped or background jobs
+bg
+
+# Brings the most recent background job to foreground
+fg
+
+# Brings job n to the foreground
+fg n
+7 – FILE PERMISSIONS
+Linux chmod example
+        PERMISSION      EXAMPLE
+
+         U   G   W
+        rwx rwx rwx     chmod 777 filename
+        rwx rwx r-x     chmod 775 filename
+        rwx r-x r-x     chmod 755 filename
+        rw- rw- r--     chmod 664 filename
+        rw- r-- r--     chmod 644 filename
+
+# NOTE: Use 777 sparingly!
+
+        LEGEND
+        U = User
+        G = Group
+        W = World
+
+        r = Read
+        w = write
+        x = execute
+        - = no access
+8 – NETWORKING
+# Display all network interfaces and IP address
+ip a
+
+# Display eth0 address and details
+ip addr show dev eth0
+
+# Query or control network driver and hardware settings
+ethtool eth0
+
+# Send ICMP echo request to host
+ping host
+
+# Display whois information for domain
+whois domain
+
+# Display DNS information for domain
+dig domain
+
+# Reverse lookup of IP_ADDRESS
+dig -x IP_ADDRESS
+
+# Display DNS IP address for domain
+host domain
+
+# Display the network address of the host name.
+hostname -i
+
+# Display all local IP addresses of the host.
+hostname -I
+
+# Download http://domain.com/file
+wget http://domain.com/file
+
+# Display listening tcp and udp ports and corresponding programs
+netstat -nutlp
+9 – ARCHIVES (TAR FILES)
+# Create tar named archive.tar containing directory.
+tar cf archive.tar directory
+
+# Extract the contents from archive.tar.
+tar xf archive.tar
+
+# Create a gzip compressed tar file name archive.tar.gz.
+tar czf archive.tar.gz directory
+
+# Extract a gzip compressed tar file.
+tar xzf archive.tar.gz
+
+# Create a tar file with bzip2 compression
+tar cjf archive.tar.bz2 directory
+
+# Extract a bzip2 compressed tar file.
+tar xjf archive.tar.bz2
+10 – INSTALLING PACKAGES
+# Search for a package by keyword.
+yum search keyword
+
+# Install package.
+yum install package
+
+# Display description and summary information about package.
+yum info package
+
+# Install package from local file named package.rpm
+rpm -i package.rpm
+
+# Remove/uninstall package.
+yum remove package
+
+# Install software from source code.
+tar zxvf sourcecode.tar.gz
+cd sourcecode
+./configure
+make
+make install
+11 – SEARCH
+# Search for pattern in file
+grep pattern file
+
+# Search recursively for pattern in directory
+grep -r pattern directory
+
+# Find files and directories by name
+locate name
+
+# Find files in /home/john that start with "prefix".
+find /home/john -name 'prefix*'
+
+# Find files larger than 100MB in /home
+find /home -size +100M
+12 – SSH LOGINS
+# Connect to host as your local username.
+ssh host
+
+# Connect to host as user
+ssh user@host
+
+# Connect to host using port
+ssh -p port user@host
+13 – FILE TRANSFERS
+# Secure copy file.txt to the /tmp folder on server
+scp file.txt server:/tmp
+
+# Copy *.html files from server to the local /tmp folder.
+scp server:/var/www/*.html /tmp
+
+# Copy all files and directories recursively from server to the current system's /tmp folder.
+scp -r server:/var/www /tmp
+
+# Synchronize /home to /backups/home
+rsync -a /home /backups/
+
+# Synchronize files/directories between the local and remote system with compression enabled
+rsync -avz /home server:/backups/
+14 – DISK USAGE
+# Show free and used space on mounted filesystems
+df -h
+
+# Show free and used inodes on mounted filesystems
+df -i
+
+# Display disks partitions sizes and types
+fdisk -l
+
+# Display disk usage for all files and directories in human readable format
+du -ah
+
+# Display total disk usage off the current directory
+du -sh
+15 – DIRECTORY NAVIGATION
+# To go up one level of the directory tree.  (Change into the parent directory.)
+cd ..
+
+# Go to the $HOME directory
+cd
+
+# Change to the /etc directory
+cd /etc
+

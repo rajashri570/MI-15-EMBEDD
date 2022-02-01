@@ -1,0 +1,66 @@
+
+GIT:-
+	Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+
+GITHUB:-
+	GitHub is a web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Or GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1. pwd — When you first open the terminal, you are in the home directory of your user. To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash( / ). The user directory is usually something like "/home/username".
+
+------------------------------------------------------------------------------LINUX COMMANDS---------------------------------------------------------------------------------------------------------------
+
+2. ls — Use the "ls" command to know what files are in the directory you are in. You can see all the hidden files by using the command “ls -a”.
+
+3. cd — Use the "cd" command to go to a directory. For example, if you are in the home folder, and you want to go to the downloads folder, then you can type in “cd Downloads”. Remember, this command is case sensitive, and you have to type in the name of the folder exactly as it is. But there is a problem with these commands. Imagine you have a folder named “Raspberry Pi”. In this case, when you type in “cd Raspberry Pi”, the shell will take the second argument of the command as a different one, so you will get an error saying that the directory does not exist. Here, you can use a backward slash. That is, you can use “cd Raspberry\ Pi” in this case. Spaces are denoted like this: If you just type “cd” and press enter, it takes you to the home directory. To go back from a folder to the folder before that, you can type “cd ..” . The two dots represent back.
+
+4. mkdir & rmdir — Use the mkdir command when you need to create a folder or a directory. For example, if you want to make a directory called “DIY”, then you can type “mkdir DIY”. Remember, as told before, if you want to create a directory named “DIY Hacking”, then you can type “mkdir DIY\ Hacking”. Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory. To delete a directory containing files, use rm.
+
+5. rm - Use the rm command to delete files and directories.  Use "rm -r" to delete just the directory. It deletes both the folder and the files it contains when using only the rm command.
+
+6. cat — Use the cat command to display the contents of a file. It is usually used to easily view programs
+
+7. sudo — A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command. For example, if you want to edit a file like viz. alsa-base.conf, which needs root permissions, you can use the command – sudo nano alsa-base.conf. You can enter the root command line using the command “sudo bash”, then type in your user password. You can also use the command “su” to do this, but you need to set a root password before that. For that, you can use the command “sudo passwd”(not misspelled, it is passwd). Then type in the new root password.
+
+8. apt-get — Use apt to work with packages in the Linux command line. Use apt-get to install packages. This requires root privileges, so use the sudo command with it. For example, if you want to install the text editor jed (as I mentioned earlier), we can type in the command “sudo apt-get install jed”. Similarly, any packages can be installed like this. It is good to update your repository each time you try to install a new package. You can do that by typing “sudo apt-get update”. You can upgrade the system by typing “sudo apt-get upgrade”. We can also upgrade the distro by typing “sudo apt-get dist-upgrade”. The command “apt-cache search” is used to search for a package. If you want to search for one, you can type in “apt-cache search jed”(this doesn't require root).
+
+9. rmdir Command -- The rmdir command is used to delete a directory.
+
+10. "CTRL+ D" keys to save the file. To display the content of the file.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+									GIT COMMANDS
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. git config --global user.name "Sam Smith"      AND       git config --global user.email sam@example.com   ------->  Configure the author name and email address to be used with your commits.
+Note that Git strips some characters (for example trailing periods) from user.name.   ---------->  Tell Git who you are
+
+2. git clone /path/to/repository     ------->   Create a working copy of a local repository:    --------->     Check out a repository
+
+3. git add <filename>    -------------->   Add one or more files to staging (index):      ---------->      Add filesAdd files
+
+4. git commit -m "Commit message"     ---------------->      Commit changes to head (but not yet to the remote repository):        ---------->     commit
+
+5. git push origin master    --------------->        Send changes to the master branch of your remote repository:           ----------->     Push
+
+6. git status      ------------>      List the files you've changed and those you still need to add or commit:       -------------->      Status
+
+7. git checkout -b <branchname>     ----------->    Create a new branch and switch to it:     ----------------->      Branches
+
+8. git checkout <branchname>      --------------->    Switch from one branch to another:    
+
+9. git branch    ----------------->       List all the branches in your repo, and also tell you what branch you're currently in:
+
+10. git branch -d <branchname>      ------------>      Delete the feature branch:
+
+11. git push origin <branchname>     --------------->    Push the branch to your remote repository, so others can use it:
+
+12. git add <filename>     --------------->      After you have manually resolved any conflicts, you mark the changed file:
+
+13. git checkout -- <filename>      --------------------->     If you mess up, you can replace the changes in your working tree with the last content in head:
+Changes already added to the index, as well as new files, will be kept.
+
+
