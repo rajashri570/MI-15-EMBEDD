@@ -30,3 +30,11 @@ touch     :- to create a empty file.
 -sudo     :- to perform for the root command in the system.
 -su       :- it is used to switch the user to another user.
 -echo     :- for displaying lines of text or string which are passed as argumrnts on the command line.
+-who      :- this command is used to see the user login in the system.
+-pwd      :- to display the current working directory.
+-cp       :- to copy the file and folde.
+-mv       :- to move the file.
+-history  :- to check the all executed command till now.
+-find     :- to find the location of the file or folder.
+-users    :- to check the user name in the server.
+-vi       :- to create the file or update the file.
