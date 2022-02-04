@@ -66,30 +66,30 @@ Ex :-
 a.	Cd stands for change directory, with the of this command we can switch one directory to another directory, and we can back present directory.
 
 		ruhai@ruhail-Vostro-15-3568:/$ cd home/
-ruhai@ruhail-Vostro-15-3568:/home$ cd ruhail
-ruhai@ruhail-Vostro-15-3568:/home/ruhail$ cd ../../
+		ruhai@ruhail-Vostro-15-3568:/home$ cd ruhail
+		ruhai@ruhail-Vostro-15-3568:/home/ruhail$ cd ../../
 
 3.	Ls command :-
 a.	Ls stands for list, with the help o	f this command we can list all files and directories.
 	ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ ls
-README.md  requirment.txt  test
+	README.md  requirment.txt  test
 
 
 4.	Cat command :-
 a.	Cat stands for concatenate, this command is used to create a new empty file, and  we can see all the content which is present in the file.
-ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat > demo.txt
-this is demo file 
-ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat demo.txt
-this is demo file 
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat > demo.txt
+	this is demo file 
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ cat demo.txt
+	this is demo file 
 
 5.	Clear command :-
 a.	Clear all the command which are written in terminal.
 
-Before using clear command :-
-		ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
-demo.txt  Myproject
-ruhail@ruhail-Vostro-15-3568:~/Desktop$ cd Myproject/
-ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ 
+	Before using clear command :-
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ ls
+	demo.txt  Myproject
+	ruhail@ruhail-Vostro-15-3568:~/Desktop$ cd Myproject/
+	ruhail@ruhail-Vostro-15-3568:~/Desktop/Myproject$ 
 
 
 
