@@ -2,7 +2,7 @@
 
 - it is a software
 - it is installed locally on the system
-- it is a command like tool
+- git is tool
 - it provides functionalities like version control system source code management      
        GIThub
 
@@ -10,3 +10,13 @@
 - it is hosted on web
 - it is a space to upload a copy of the git repository
 - it provides functionalities of git like VCS, source code management as well as adding few of its own features
+
+COMMAND 
+
+cd:- The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems. It can be used in shell scripts and batch files.
+
+Mkdir:- The mkdir command in Linux/Unix allows users to create or make new directories. mkdir stands for “make directory.” With mkdir , you can also set permissions, create multiple directories (folders) at once, and much more.
+
+Cat:- The cat command is a utility command in Linux. One of its most commonly known usages is to print the content of a file onto the standard output stream. Other than that, the cat command also allows us to write some texts into a file.
+
+Ls:- The ls command is used to list files. "ls" on its own lists all files in the current directory except for hidden files. ... ls -a will list all files including hidden files (files with names beginning with a dot).
