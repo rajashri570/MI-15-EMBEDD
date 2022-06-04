@@ -20,7 +20,7 @@ void main()
         printf("File does not exists \n");
         return;
     }
-    printf("Enter the name \n");
+    printf("Enter the name \n");dsf
     scanf("%s", name);
     fprintf(fptr, "Name    = %s\n", name);
     printf("Enter the age\n");
